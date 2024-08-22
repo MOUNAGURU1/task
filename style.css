@@ -1,0 +1,57 @@
+.container {
+	max-width: 450px;
+	margin: 50px auto;
+	padding: 20px;
+	background-color:yellow;
+	border: 1px solid red;
+	box-shadow: 0 0 10px black;
+}
+body{
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    width:200px;
+    height:100px;
+    margin-left:100px;
+}
+.head {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+form div {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+input {
+	width: 90%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid red;
+    border-radius: 10px;
+}
+
+button {
+	width: 100%;
+	padding: 10px;
+	background-color:green;
+	color: white;
+	border: none;
+	cursor: pointer;
+    font-size: 22px;
+    border-radius: 20px;
+}
+
+button:hover {
+	background-color: yellow;
+}
